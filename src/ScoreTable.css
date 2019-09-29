@@ -2,18 +2,35 @@
   display: flex;
   flex-direction: column;
   font-size: 0.9rem;
-  width: 80%;
+  width: 100%;
   background-color: white;
-  padding: 1em;
+  /* padding: 3em 1em; */
+  height: auto;
 }
 
 .ScoreTable table {
-  width: 100%;
   margin: 0 auto;
-  min-width: 400px;
+  min-width: 350px;
+  width: auto;
 }
 
 .ScoreTable-section {
   vertical-align: top;
   width: 100%;
 }
+
+.ScoreTable-section table {
+  vertical-align: top;
+  width: 100%;
+  padding: 2em 2em 2em 2em;
+}
+
+
+.ScoreTable-section-lower {
+  vertical-align: top;
+  width: 100%;
+}
+
+  .ScoreTable-section-lower h2 {
+    /* margin-top: 0; */
+  }
