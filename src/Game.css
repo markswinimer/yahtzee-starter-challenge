@@ -46,8 +46,8 @@ h2 {
   );
   border-radius: 0.5rem;
   border: none;
-  width: 50%;
-
+  min-width: 60%;
+  white-space: nowrap;
   margin-bottom: 2rem;
 }
 

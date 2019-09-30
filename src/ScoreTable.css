@@ -34,3 +34,7 @@
   .ScoreTable-section-lower h2 {
     /* margin-top: 0; */
   }
+
+.Total-score {
+  border-bottom: none;
+}
